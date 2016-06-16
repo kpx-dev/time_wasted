@@ -8,49 +8,16 @@
     "128": "images/icon-128.png"
   },
   "default_locale": "en",
-  "background": {
-    "scripts": [
-      "scripts/chromereload.js",
-      "scripts/background.js"
-    ]
-  },
-  "permissions": [
-    "tabs",
-    "http://*/*",
-    "https://*/*",
-    "background",
-    "bookmarks",
-    "clipboardRead",
-    "clipboardWrite",
-    "contentSettings",
-    "cookies",
-    "*://*.google.com/",
-    "debugger",
-    "history",
-    "idle",
-    "management",
-    "notifications",
-    "pageCapture",
-    "topSites",
-    "storage",
-    "webNavigation",
-    "webRequest",
-    "webRequestBlocking"
-  ],
-  "options_ui": {
-    "page": "options.html",
-    "chrome_style": true
-  },
+  "permissions": ["storage"],
   "content_scripts": [
     {
+      "run_at": "document_end",
       "matches": [
-        "http://*/*",
-        "https://*/*"
+        "*://*.facebook.com/"
       ],
       "js": [
         "scripts/contentscript.js"
       ],
-      "run_at": "document_end",
       "all_frames": false
     }
   ],

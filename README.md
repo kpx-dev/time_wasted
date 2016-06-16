@@ -1,15 +1,17 @@
 # Time Wasted
-Chrome extension to track how much time wasted on Social Networking Sites
+Chrome extension to track how much time wasted on Social Networking Sites, currently support Facebook
 
-# Contribute
+![Demo](demo.gif "Demo")
+
+## Contribute
     # install packages
     $ npm install
 
     # build extension
     $ gulp build
 
-# License
+## License
 MIT
 
-# Credit
-Icon:
+## Credit
+Icon: https://thenounproject.com/term/time/6731/
