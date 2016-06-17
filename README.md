@@ -1,5 +1,5 @@
 # Time Wasted
-Chrome extension to track how much time wasted on Social Networking Sites, currently support Facebook
+Chrome extension to track how much time wasted on Social Networking Sites, currently support Facebook and LinkedIn
 
 ![Demo](demo.gif "Demo")
 
