@@ -1,6 +1,6 @@
 {
   "name": "__MSG_appName__",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "manifest_version": 2,
   "description": "__MSG_appDescription__",
   "icons": {
@@ -14,7 +14,8 @@
     {
       "run_at": "document_end",
       "matches": [
-        "*://*.facebook.com/"
+        "*://*.facebook.com/",
+        "*://*.linkedin.com/"
       ],
       "js": [
         "scripts/contentscript.js"
