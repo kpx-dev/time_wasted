@@ -3,6 +3,9 @@ Chrome extension to track how much time wasted on Social Networking Sites, curre
 
 ![Demo](demo.gif "Demo")
 
+## Download
+https://chrome.google.com/webstore/detail/time-wasted/fahkhelepljjjcgekgbdmmbckpmclncl
+
 ## Contribute
     # install packages
     $ npm install
