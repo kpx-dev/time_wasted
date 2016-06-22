@@ -1,6 +1,6 @@
 {
   "name": "__MSG_appName__",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "manifest_version": 2,
   "description": "__MSG_appDescription__",
   "icons": {
@@ -15,7 +15,19 @@
       "run_at": "document_end",
       "matches": [
         "*://*.facebook.com/",
-        "*://*.linkedin.com/"
+        "*://*.youtube.com/",
+        "*://*.twitter.com/",
+        "*://*.linkedin.com/",
+        "*://*.pinterest.com/",
+        "*://*.linkedin.com/",
+        "*://plus.google.com/",
+        "*://*.tumblr.com/",
+        "*://*.reddit.com/",
+        "*://*.flickr.com/",
+        "*://*.vine.com/",
+        "*://*.meetup.com/",
+        "*://*.ask.fm/",
+        "*://*.classmates.com/"
       ],
       "js": [
         "scripts/contentscript.js"
